@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: #0f1a20;
+    color: #fefcfb;
+    padding: 50px;
+}
+
+.app-title,
+.counter {
+    font-size: 60px;
+    margin: 40px 0;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin: 40px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #d52941;
+    color: #0f1a20;
+}
+
+#save-btn {
+    background: #3f88c5;
+    color: #fefcfb;
+}
+
+.save-para,
+.sum-para {
+    font-size: 25px;
+}
